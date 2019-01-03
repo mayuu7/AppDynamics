@@ -696,7 +696,7 @@ input::-ms-input-placeholder {
 }
 /*home section*/
 .home{
-    background: url(../images/homePageBackground.jpg) no-repeat center center;
+    background: url(../images/homePageBackground.jpeg) no-repeat center center;
     background-size: cover;
 }
 .home_skew_border{
