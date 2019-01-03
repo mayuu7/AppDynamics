@@ -199,12 +199,12 @@ h3 {
     font-weight: 400;
 }
 h4 {
-    font-family: Sans-Trim-Bold;
+    font-family: Sans-Regular;
     font-weight: 600;
     font-size: 1.286rem;
     line-height: 2rem;
     margin-bottom: 1rem;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 /*h5 {
     font-size: 1.125rem;
@@ -1016,7 +1016,7 @@ button.btn-md:hover {
     background: #fff;
     position: absolute;
     right:-25%;
-    top:85px;
+    top:0px;
     width:100%;
     z-index: 9;
     padding: 10% 20%;
