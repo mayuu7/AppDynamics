@@ -709,7 +709,7 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 86px solid #f4f5f9;
+    border-bottom: 86px solid #9b9c9e;
     border-right: 680px solid transparent;
 
 }
@@ -720,7 +720,7 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 86px solid #f4f5f9;
+    border-bottom: 86px solid #9b9c9e;
     border-left: 680px solid transparent;
 }
 .main_home{
@@ -1004,7 +1004,7 @@ button.btn-md:hover {
                     Study Section Css
 ==========================================================================*/
 .study{
-    background: #f4f5f9;
+    background: #9b9c9e;
 }
 .main_study_area{
     overflow: hidden;
@@ -1015,21 +1015,21 @@ button.btn-md:hover {
 .single_study_text_one{
     background: #fff;
     position: absolute;
-    right:-25%;
-    top:0px;
-    width:100%;
+    right: -30%;
+    top: 6px;
+    width: 100%;
     z-index: 9;
-    padding: 10% 20%;
+    padding: 5% 0%;
 }
 
 .single_study_text_two{
     background: #fff;
     position: absolute;
-    left:-25%;
+    left:-30%;
     top:85px;
     width:100%;
     z-index: 9;
-    padding: 10% 20%;
+    padding: 5% 0%;
 }
 .single_study_text .s_study_icon{
     background: #e74c3c;
