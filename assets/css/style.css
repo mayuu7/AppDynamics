@@ -265,8 +265,8 @@ p:last-child {
 Section
 */
 .sections {
-    padding-top:85px;
-    padding-bottom: 105px;
+    padding-top:45px;
+    padding-bottom: 85px;
     /*overflow: hidden;*/
 }
 .sections.footer {
@@ -585,7 +585,7 @@ input::-ms-input-placeholder {
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
-    height: 75px;
+    height: 60px;
 
 }
 .main_menu_bg{
@@ -596,7 +596,7 @@ input::-ms-input-placeholder {
     background-color: transparent; 
     border-color: transparent; 
     transition: all .6s;
-    margin: 15px auto;
+    margin: 0px auto;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color:#ff4352;
@@ -686,7 +686,7 @@ input::-ms-input-placeholder {
 }
 /*heading title all area*/
 .head_title{
-    margin-bottom:90px;
+    margin-bottom:30px;
 }
 .head_title h3{
     color:#413d4b;
@@ -724,8 +724,8 @@ input::-ms-input-placeholder {
     border-left: 680px solid transparent;
 }
 .main_home{
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     display: block;
 }
 
@@ -845,7 +845,7 @@ input::-ms-input-placeholder {
             service section Style
 ====================================================================*/
 .main_service .head_title{
-    padding: 100px 0px 40px 0px;
+    padding: 100px 0px 20px 0px;
     margin-bottom: 0px;
 }
 .main_service .head_title h2{
@@ -1008,6 +1008,7 @@ button.btn-md:hover {
 }
 .main_study_area{
     overflow: hidden;
+    padding-top:60px;
 }
 .slick-active{
     outline: none;
@@ -1738,4 +1739,13 @@ li .single_team_text p{
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+.judgesPic{
+    transition-duration: 500ms;
+}
+
+.judgesPic:hover{
+    width:160px;
+    height: 160px;
 }
