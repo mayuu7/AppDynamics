@@ -590,7 +590,7 @@ input::-ms-input-placeholder {
 }
 .main_menu_bg{
     margin-top: 0px;
-    background-color: transparent;
+    background-color: #4a4848;
 }
 .main_menu_bg .navbar-default {
     background-color: transparent; 
@@ -724,7 +724,7 @@ input::-ms-input-placeholder {
     border-left: 680px solid transparent;
 }
 .main_home{
-    padding-top: 150px;
+    padding-top: 220px;
     padding-bottom: 100px;
     display: block;
 }
@@ -1053,7 +1053,7 @@ button.btn-md:hover {
                     counter section css
 =======================================================================*/
 .counter{
-    background-image: url(../images/prizes.jpg);
+    background-image: url(../images/hackathon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:  fixed;
@@ -1814,10 +1814,12 @@ input[type=checkbox]:checked ~ .accordion-label:before {
   transition: all 0.3s ease;
   opacity: 0;
   height: 0;
+  font-size:16px;
   -webkit-transform: scale(1, 0);
           transform: scale(1, 0);
   -webkit-transform-origin: center top;
           transform-origin: center top;
+
 }
 input[type=checkbox]:checked ~ .accordion-child {
   border: 1px solid #e0e0e0;
