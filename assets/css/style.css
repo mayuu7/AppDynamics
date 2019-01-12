@@ -1867,3 +1867,45 @@ input[type=checkbox]:checked ~ .accordion-child {
 .instructionsDiv h3{
     margin-bottom: 15px;
 }
+
+
+/*problem Statement*/
+
+.problemStatement{
+    margin-top: 0px;
+}
+.waterQualityPS{
+    background-image: url("../images/waterQuality.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.waterQualityPSOverlay{
+    background-color: rgba(41, 39, 34, 0.75);
+    width: 100%;
+    height: 100%;
+    padding: 15px 30px 15px 30px;
+}
+
+.waterQualityPSOverlay h4,h5{
+    color: white;
+}
+
+.locationIntelligencePS{
+    background-image: url("../images/locationIntelligence.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.locationIntelligencePSOverlay{
+    background-color: rgba(41, 39, 34, 0.75);
+    width: 100%;
+    height: 100%;
+    padding: 15px 30px 15px 30px;
+}
+
+.locationIntelligencePSOverlay h4,h5{
+    color: white;
+}
