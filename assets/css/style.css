@@ -41,7 +41,7 @@ body {
     margin-right: 0;
     font-weight: 300;
     width:100%;
-    font-family: 'ralewayregular';
+    font-family: Sans-Regular;
 }
 .preloader {
     position: fixed;
@@ -599,15 +599,15 @@ input::-ms-input-placeholder {
     margin: 0px auto;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-    color:#ff4352;
+    color:orange;
     background: transparent;
 }
 .main_menu_bg .navbar {}
 
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: #ff4352;
+    color: orange;
     padding-bottom: 22px;
-    border-bottom: 1px solid #e74c3c;
+    border-bottom: 1px solid #FF8a14;
     background: transparent;
 
 }
@@ -1716,6 +1716,13 @@ input[type=checkbox]:checked ~ .accordion-child {
         box-shadow: 0 11px 49px rgba(0,0,0,0.6);
 }
 
+.evaluationCriteriaCard h4{
+    color:black;
+}
+
+.evaluationCriteriaCard h5{
+    font-size: 18px;
+}
 
 .evaluationCriteria{
     margin-top:90px;
