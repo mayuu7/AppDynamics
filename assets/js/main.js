@@ -145,6 +145,18 @@ jQuery(document).ready(function ($) {
 
     //End
 
+    $('#waterQualityButton').click(function(){
+      $('#waterQualityButton').fadeOut("fast");
+      $('#waterQualityNGO').fadeIn("slow");
+      
+    });
+    
+    $('#locationIntelligenceButton').click(function(){
+      $('#locationIntelligenceButton').fadeOut("fast");
+      $('#locationIntelligenceNGO').fadeIn("slow");
+      
+    });
+
 });
 
 
@@ -321,3 +333,5 @@ $(document).on("scroll", function () {
                     new SelectFx(el);
                 } );
             })();
+
+
