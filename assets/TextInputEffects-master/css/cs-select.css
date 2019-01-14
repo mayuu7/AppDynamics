@@ -32,6 +32,7 @@ div.cs-select:focus {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	color:white;
 }
 
 /* Placeholder and selected option */
@@ -126,10 +127,10 @@ div.cs-skin-underline {
 
 .cs-skin-underline > span {
 	padding: 0.5em 3em 0.5em 0.5em;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #787676;
 	border-color: inherit;
 	font-weight: 500;
-	color: #fff;
+	color: #787676;
 	font-size:13px;
 }
 
@@ -150,7 +151,7 @@ div.cs-skin-underline {
 }
 
 .cs-skin-underline .cs-options {
-	background: #fff;
+	background: #787676;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
 	transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
@@ -197,7 +198,7 @@ div.cs-skin-underline {
 	left: 0;
 	height: 3px;
 	width: 100%;
-	background-color: #fff;
+	background-color: #787676;
 	-webkit-transform: translate3d(200%,0,0);
 	transform: translate3d(200%,0,0);
 	-webkit-transition: -webkit-transform 0.3s;
@@ -252,6 +253,6 @@ div.cs-skin-underline {
 .cs-skin-underline .cs-options li span:hover,
 .cs-skin-underline .cs-options li.cs-focus span,
 .cs-skin-underline li.cs-selected span {
-	color: #ACA4D4;
+	color: #fff;
 	background: transparent;
 }
