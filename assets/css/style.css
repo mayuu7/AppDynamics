@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: Sans-Thin;
-  src: url(../fonts/AppD/ttf/AppDSans-Thin.ttf);
+  src: url(../fonts/AppD/ttf/AppDSans-Light.ttf);
 }
 
 @font-face {
@@ -184,22 +184,22 @@ h1 {
     letter-spacing: .4rem;
 }
 h2 {
-    font-family: Sans-Medium;
+    font-family: Sans-Regular;
     font-size:2.571rem;
     line-height: 3rem;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 700;
 
 }
 h3 {
-    font-family: Sans-Regular;
+    font-family: Sans-Thin;
     font-size:1.714rem;
     line-height: 2.5rem; 
     color:#fff;
     font-weight: 400;
 }
 h4 {
-    font-family: Sans-Regular;
+    font-family: Sans-Thin;
     font-weight: 600;
     font-size: 1.286rem;
     line-height: 2rem;
@@ -417,10 +417,11 @@ Button
 }*/
 .btn {
     display: inline-block;
-background-image: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));
+/*background-image: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));
 background-image: -webkit-linear-gradient(left, #2c28b1 0%, #9b5cf6 51%, #2c28b1 100%);
 background-image: -o-linear-gradient(left, #4e33b1 0%, #9b5cf6 51%, #2c28b1 100%);
-background-image: linear-gradient(to right, #4e33b1 0%, #9b5cf6 51%, #2c28b1 100%);
+background-image: linear-gradient(to right, #4e33b1 0%, #9b5cf6 51%, #2c28b1 100%);*/
+background-color:#4E3EB1;
 background-size: 200% auto;
 padding: 0px 35px;
 color: #fff;
@@ -428,7 +429,7 @@ font-family: Sans-Regular;
 font-size: 13px;
 font-weight: 500;
 line-height: 50px;
-border-radius: 5px;
+border-radius: 0px !important;
 outline: none !important;
 -webkit-box-shadow: none !important;
 box-shadow: none !important;
@@ -440,7 +441,7 @@ transition: all 300ms linear 0s;
 
 }
 .btn:hover{
-   background-position: right center;
+   /*background-position: right center;*/
    color: #fff;
 }
 /*.btn-default{
@@ -713,7 +714,7 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 86px solid #9b9c9e;
+    border-bottom: 86px solid #fff;
     border-right: 680px solid transparent;
 
 }
@@ -724,7 +725,7 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 86px solid #9b9c9e;
+    border-bottom: 86px solid #fff;
     border-left: 680px solid transparent;
 }
 .main_home{
@@ -1008,7 +1009,7 @@ button.btn-md:hover {
                     Study Section Css
 ==========================================================================*/
 .study{
-    background: #9b9c9e;
+    background: #fff;
 }
 .main_study_area{
     overflow: hidden;
@@ -1020,7 +1021,7 @@ button.btn-md:hover {
 .single_study_text_one{
     background: #fff;
     position: absolute;
-    right: -30%;
+    /*right: -30%;*/
     top: 6px;
     width: 100%;
     z-index: 9;
@@ -1030,7 +1031,7 @@ button.btn-md:hover {
 .single_study_text_two{
     background: #fff;
     position: absolute;
-    left:-30%;
+    /*left:-30%;*/
     top:85px;
     width:100%;
     z-index: 9;
@@ -1346,7 +1347,7 @@ li .single_team_text p{
                         clogo section css
 ======================================================================*/
 .clogo{
-    background: #f4f5f9;
+    background: #19212B;
 }
 .main_clogo{
     overflow: hidden;
@@ -1357,8 +1358,16 @@ li .single_team_text p{
     width: 100%;
     overflow: hidden;
     line-height: 100px;
-    background: #f4f5f9;
+    /*background: #f4f5f9;*/
     margin-bottom:30px;
+}
+
+.main_clogo h4{
+    color: white;
+}
+
+.main_clogo h2{
+    color:white;
 }
 
 
