@@ -1897,4 +1897,16 @@ input[type=checkbox]:checked ~ .accordion-child {
     .mobileThemeSection{
         margin-bottom:50px !important;
     }
+
+    .queries{
+        height: 80px !important;
+    }
+
+    .main_menu_bg .navbar-nav > li > a{
+        font-size:1.175rem !important;
+    }
+
+    #problemStatement{
+        margin-top: 100px !important;
+    }
 }
