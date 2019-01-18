@@ -132,6 +132,7 @@ div.cs-skin-underline {
 	font-weight: 500;
 	color: #787676;
 	font-size:13px;
+	font-weight: bold;
 }
 
 .cs-skin-underline > span::after {
