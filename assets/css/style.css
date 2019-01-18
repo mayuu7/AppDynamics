@@ -1031,7 +1031,7 @@ button.btn-md:hover {
 .single_study_text_two{
     background: #fff;
     position: absolute;
-    /*left:-30%;*/
+    left:0%;
     top:85px;
     width:100%;
     z-index: 9;
