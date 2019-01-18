@@ -116,12 +116,13 @@
 
                         <form method="post" enctype="multipart/form-data" action="https://web.mxradon.com/t/FormTracker.aspx">
                             
-                            <div class="head_title text-center" style="margin-bottom: 40px">
+                            <div class="head_title text-center" style="margin-bottom: 20px">
                                 <h2>Register</h2>
                                 
                                 <div class="separator"></div>
                             </div>
                             <div class="row">
+                                <h3 class="text-center" style="color:grey">Primary Team Member</h3>
                                 <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 ">
                                     <span class="input input--madoka">
                                         <input class="input__field input__field--madoka" type="text" id='input-31' name='FirstName' maxlength='100' value='' autocomplete='off' required='required'>
@@ -145,15 +146,15 @@
                                     </span>
                                 </div>
                                 <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 ">
-                                    <div class="cs-select cs-skin-underline" tabindex="0" style="margin: 1em;">
-                                        
-                                        <select class="cs-select cs-skin-underline" name='mx_Primary_Team_Member' required='required'>
-                                            <option value="" disabled="" selected="">Primary Team Member *</option>
-                                            <option value='Yes' selected="true">Yes</option>
-                                            <option value='No' >No</option>
-                                            
-                                        </select>
-                                    </div>
+                                    <span class="input input--madoka">
+                                        <input class="input__field input__field--madoka" type="text" id='input-90' name='mx_Short_Introduction' autocomplete='off' required='required'>
+                                        <label class="input__label input__label--madoka" for="input-90">
+                                            <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+                                                <path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+                                            </svg>
+                                            <span class="input__label-content input__label-content--madoka">Short Introduction *</span>
+                                        </label>
+                                    </span>
                                 </div>
                             </div>
                             <br>
@@ -575,7 +576,7 @@
                             <br><br><br>
 
                             <div class="row" style="text-align: center">
-                                <input type='submit' class="btn btn-lg m_t_10" value="Register" />
+                                <input type='submit' class="btn btn-lg m_t_10" value="Submit" />
                             </div>
 
                             <input type="hidden" name="MXHOrgCode" value="13287" /> 
