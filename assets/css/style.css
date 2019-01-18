@@ -31,7 +31,7 @@ Author URI: http://bootstrapthemes.co
    Author's custom styles
    ========================================================================== */
 .mobileShow{
-    display:none;
+    display:none !important;
 }
 
 html,
@@ -1888,5 +1888,9 @@ input[type=checkbox]:checked ~ .accordion-child {
 
     #clogo .col-sm-4{
         margin-bottom: 50px !important;
+    }
+
+    .mobileThemeSection h4{
+        margin:10px;
     }
 }
