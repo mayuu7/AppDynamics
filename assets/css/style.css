@@ -30,6 +30,10 @@ Author URI: http://bootstrapthemes.co
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.mobileShow{
+    display:none;
+}
+
 html,
 body {
     background-color: #fff;
@@ -1843,4 +1847,46 @@ input[type=checkbox]:checked ~ .accordion-child {
 .queries{
     height: 60px;
     /*margin-top: 30px;*/
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .mobileHide{
+        display: none !important;
+    }
+    .mobileShow{
+        display: block !important; 
+    }
+
+    #feature{
+        height: 100% !important;
+    }
+    .nameOfTimeline{
+        height: 20px !important;
+    }
+
+    #feature .col-sm-2{
+        margin-bottom: 50px !important;
+    }
+
+    .single_counter_item{
+        margin-bottom: 50px !important;
+    }
+
+    #judges .col-sm-3{
+        margin-bottom: 50px !important
+    }
+
+    #judges .col-sm-4{
+        margin-bottom: 50px !important
+    }
+
+    .youtubeVideo iframe{
+        width: 100% !important;
+    }
+
+    #clogo .col-sm-4{
+        margin-bottom: 50px !important;
+    }
 }

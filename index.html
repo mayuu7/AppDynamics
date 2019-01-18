@@ -74,7 +74,7 @@
                                                 <a href="https://appdynamics.com" target="_blank"><img src="assets/images/appDynamicsLogo.png" width="160px" height="60px" style="margin-top: 2px" /></a>
                                                 <a href="https://www.cisco.com/" target="_blank"><img src="assets/images/ciscoBlack.png" width="70px" height="35px" style="margin-top: 15px;margin-left: 5px; margin-right: 20px" />
                                                 </a>
-                                                <p style="margin-top:15px;color:black;">AppDynamics is now part of Cisco</p>
+                                                <p style="margin-top:15px;color:black;" class="mobileHide">AppDynamics is now part of Cisco</p>
                                                
                                             </div>
                                         </div>
@@ -122,8 +122,10 @@
                                         <div>
                                             <div class="main_home wow fadeInUp typewriter" data-wow-duration="700ms">
                                                 
-                                                <h1 id="impactathonHeading"  style="font-size: 78px">IMPACTATHON 2019</h1>
-                                                <h3 class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="5s" style="font-size: 30px">#Codeforacause</h3>
+                                                <h1 id="impactathonHeading" class="mobileHide"  style="font-size: 78px">IMPACTATHON 2019</h1>
+                                                <h1 id="impactathonHeading" class="mobileShow" style="font-size: 22px">IMPACTATHON 2019</h1>
+                                                <h3 class="wow bounceInDown mobileHide" data-wow-duration="1s" data-wow-delay="5s" style="font-size: 30px">#Codeforacause</h3>
+                                                <h3 class="wow bounceInDown mobileShow" data-wow-duration="1s" data-wow-delay="5s" style="font-size: 20px">#Codeforacause</h3>
                                                 <div class="separator"></div>
                                                 <h4 style="color: white">An event organised by AppDynamics to bridge the gap between problems and problem-solvers. The objective of this event is to bring to the fore, issues around Water Quality and Urban Livability, and incentivise tech innovators to apply their problem-solving skills to discover disruptive solutions for these problems.</h4>
                                                 <div class="home_btn">
@@ -145,7 +147,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="scrooldown">
+                        <div class="scrooldown mobileHide">
                             <a href="#study"><i class="fa fa-arrow-down"></i></a>
                         </div>
                     </div>
@@ -163,7 +165,7 @@
                                 <div class="separator"></div>
                             </div>
                             <div class="single_study_content wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 mobileHide">
                                     <div class="single_study_slid_area">
 
                                         <div class="single_study_text_one">
@@ -180,7 +182,7 @@
                                 </div>
 
 
-                                <div class="single_study_right_img">
+                                <div class="single_study_right_img mobileHide">
                                     <div class="col-sm-6">
                                         <div class="single_study_img">
                                             <img class="img img-circle" src="assets/images/waterQuality.jpeg" alt="" height="350px" width="350px" />
@@ -188,17 +190,31 @@
                                     </div>
                                 </div>
 
+
+
+                                <!-- for mobile -->
+                                <div class="mobileShow">
+                                    <div class="s_study_icon">
+                                        <i class="fa fa-lightbulb-o"></i>  
+                                    </div>
+                                    <h3 style="color: #797979">Water Quality</h3>
+                                    <div class="separator3"></div>
+                                    <h4>Water scarcity and water pollution are major environmental issues in India. While a number of cities are struggling to cope with increasing water scarcity due to declining groundwater levels, water quality continues to be a major problem posing a serious risk to health and lives. A recent Water Aid report finds that India is among the countries with the worst access to clean water close to homes.</h4>
+
+                                    <a href="/problemStatement.html" class="btn btn-lg">VIEW DETAILS</a>
+                                </div>
+
                             </div>
 
                             <div class="single_study_content wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="2.5s">
-                                <div class="single_study_right_img">
+                                <div class="single_study_right_img mobileHide">
                                     <div class="col-sm-6">
                                         <div class="single_study_img">
                                             <img class="img img-circle" src="assets/images/locationIntelligence.jpg" alt="" width="350px" height="350px" style="margin-top:85px;" />
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 mobileHide">
                                     <div class="single_study_slid_area">
 
                                         <div class="single_study_text_two">
@@ -214,7 +230,18 @@
                                     </div>
                                 </div>
 
+                                <!-- for mobile -->
+                                <div class="mobileShow">
+                                    <div class="s_study_icon">
+                                        <i class="fa fa-lightbulb-o"></i>  
+                                    </div>
+                                    <h3 style="color: #797979">Location Intelligence</h3>
+                                    <div class="separator3"></div>
+                                    <h4>Location-based, data-driven approaches can go a long way in tracking and improving the quality of life (QOL) indicators in urban India. QOL data can act as powerful decision-support for city leaders to build more liveable cities. </h4>
 
+                                    <a href="/problemStatement.html" class="btn btn-lg">VIEW DETAILS</a>
+                                </div>
+                                
                                 
                             </div>
                         </div>
@@ -479,7 +506,7 @@
                             </div> <!-- End off col-md-6 -->
 
                             <div class="col-md-6 col-sm-6" style="text-align: center;">
-                                <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+                                <div class="wow fadeIn youtubeVideo" data-wow-duration="2s" data-wow-delay="1s">
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/sFuFotJD1vM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 80px"></iframe>
                                 </div>
                             </div>
