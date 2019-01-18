@@ -1909,4 +1909,24 @@ input[type=checkbox]:checked ~ .accordion-child {
     #problemStatement{
         margin-top: 100px !important;
     }
+
+    #register{
+        margin-top: 150px !important;
+    }
+
+    #register .col-sm-4{
+        margin-bottom: 30px !important;
+    }
+
+    .input__label--madoka{
+        font-size:9px !important;
+    }
+
+    .cs-skin-underline > span{
+        font-size:10px !important;
+    }
+
+    .topCsSelect{
+        width: 93% !important;
+    }
 }
