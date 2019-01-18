@@ -1893,4 +1893,8 @@ input[type=checkbox]:checked ~ .accordion-child {
     .mobileThemeSection h4{
         margin:10px;
     }
+
+    .mobileThemeSection{
+        margin-bottom:50px !important;
+    }
 }
