@@ -1919,7 +1919,7 @@ input[type=checkbox]:checked ~ .accordion-child {
     }
 
     .input__label--madoka{
-        font-size:9px !important;
+        font-size:10px !important;
     }
 
     .cs-skin-underline > span{
