@@ -1929,4 +1929,8 @@ input[type=checkbox]:checked ~ .accordion-child {
     .topCsSelect{
         width: 93% !important;
     }
+
+    .navbar-toggle{
+        margin-right: 5px !important;
+    }
 }
